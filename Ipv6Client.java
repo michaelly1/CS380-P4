@@ -15,8 +15,6 @@ public class Ipv6Client {
 
             byte[] Ipv6Packet = new byte[40];
 
-            byte[] destaddr = {52, 37, 88, (byte) 154};
-
             //fills the packet array with 0's beforehand
             Arrays.fill(Ipv6Packet, (byte) 0);
 
